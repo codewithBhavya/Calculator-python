@@ -1,6 +1,10 @@
 import math
 print("welcome to Advanced Calculator")
-
+print("Type :")
+print("1.For Addition")
+print("2.For Subtraction")
+print("3.For Multiplication")
+print("4.For Division")
 
 operation_input = input("please enter the arithmetic operator you want to calculate")
 operation = int(operation_input)
