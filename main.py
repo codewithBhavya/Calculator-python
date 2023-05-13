@@ -6,6 +6,8 @@ print("2.For Subtraction")
 print("3.For Multiplication")
 print("4.For Division")
 print("5.To find the square root of a Number")
+print("6.To find the square of a number")
+print("7.To find the cube of a number")
 operation_input = input("please enter the arithmetic operator you want to calculate")
 operation = int(operation_input)
 #computing all the data
@@ -42,5 +44,15 @@ elif operation==5:
     num_root = int(num_sqrt)
     num = math.sqrt(num_root)
     print(num)
+elif operation==6:
+    square_input = input("enter the number to be squared")
+    square_number = int(square_input)
+    square_final = str(square_number*square_number)
+    print("the square of is " + square_final)
+elif operation==7:
+    cube_input = input("enter the number to be cubed")
+    cube_number = int(cube_input)
+    cube_final = str(cube_number*cube_number*cube_number)
+    print("the square of is " + cube_final)
 else:
     print("Invaild")
